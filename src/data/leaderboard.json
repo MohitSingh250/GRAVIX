@@ -1,0 +1,33 @@
+[
+    {
+      "rank": 1,
+      "name": "ToppersRock",
+      "score": 980,
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=ToppersRock"
+    },
+    {
+      "rank": 2,
+      "name": "IITianNext",
+      "score": 950,
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=IITianNext"
+    },
+    {
+      "rank": 3,
+      "name": "JEE_Monster",
+      "score": 935,
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=JEE_Monster"
+    },
+    {
+      "rank": 4,
+      "name": "FutureEngineer",
+      "score": 910,
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=FutureEngineer"
+    },
+    {
+      "rank": 5,
+      "name": "AspireCracker",
+      "score": 905,
+      "avatar": "https://api.dicebear.com/6.x/thumbs/svg?seed=AspireCracker"
+    }
+  ]
+  

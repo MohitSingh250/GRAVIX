@@ -1,0 +1,26 @@
+.navigator {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  .nav-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background: #ccc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .nav-btn.active {
+    background: #0066cc;
+  }
+  
+  .nav-btn.answered {
+    background: #28a745;
+  }
+  

@@ -1,0 +1,752 @@
+[
+    {
+      "id": 1,
+      "subject": "Physics",
+      "topic": "Kinematics",
+      "difficulty": "Easy",
+      "question": "A particle moves with constant acceleration. It covers 20 m in the 2nd second and 24 m in the 3rd second. What is its acceleration?",
+      "options": [
+        "2 m/s²",
+        "4 m/s²",
+        "6 m/s²",
+        "8 m/s²"
+      ],
+      "answer": "2 m/s²",
+      "explanation": "Using the formula for distance in the nth second, s_n = u + (a/2)(2n-1), we get: for 2nd second, 20 = u + (a/2)(3); for 3rd second, 24 = u + (a/2)(5). Subtracting, 4 = (a/2)(2), so a = 2 m/s²."
+    },
+    {
+      "id": 2,
+      "subject": "Physics",
+      "topic": "Laws of Motion",
+      "difficulty": "Medium",
+      "question": "A 5 kg block is pulled on a rough horizontal surface by a 20 N force at 30° to the horizontal. If the coefficient of friction is 0.2, what is the acceleration? (g = 10 m/s²)",
+      "options": [
+        "1.2 m/s²",
+        "2.4 m/s²",
+        "3.6 m/s²",
+        "0.8 m/s²"
+      ],
+      "answer": "1.2 m/s²",
+      "explanation": "Horizontal force: F_x = 20 cos 30° = 17.32 N. Vertical force reduces normal force: N = 5×10 - 20 sin 30° = 40 N. Friction force: f = 0.2×40 = 8 N. Net force: F_net = 17.32 - 8 = 9.32 N. Acceleration: a = 9.32/5 ≈ 1.2 m/s²."
+    },
+    {
+      "id": 3,
+      "subject": "Physics",
+      "topic": "Work, Energy, and Power",
+      "difficulty": "Easy",
+      "question": "A 2 kg object is lifted vertically by 5 m at constant speed. What is the work done by the lifting force? (g = 10 m/s²)",
+      "options": [
+        "50 J",
+        "100 J",
+        "150 J",
+        "200 J"
+      ],
+      "answer": "100 J",
+      "explanation": "Work done by lifting force equals the gain in potential energy since speed is constant. W = mgh = 2 × 10 × 5 = 100 J."
+    },
+    {
+      "id": 4,
+      "subject": "Physics",
+      "topic": "Circular Motion",
+      "difficulty": "Medium",
+      "question": "A particle moves in a circular path of radius 2 m with a constant speed of 4 m/s. What is the magnitude of its centripetal acceleration?",
+      "options": [
+        "4 m/s²",
+        "8 m/s²",
+        "16 m/s²",
+        "2 m/s²"
+      ],
+      "answer": "8 m/s²",
+      "explanation": "Centripetal acceleration is given by a_c = v²/r. Substituting, a_c = 4²/2 = 16/2 = 8 m/s²."
+    },
+    {
+      "id": 5,
+      "subject": "Physics",
+      "topic": "Gravitation",
+      "difficulty": "Hard",
+      "question": "A satellite orbits Earth at a height equal to Earth's radius. What is the ratio of its orbital speed to the escape speed from Earth's surface?",
+      "options": [
+        "1/√2",
+        "√2",
+        "1/2",
+        "2"
+      ],
+      "answer": "1/√2",
+      "explanation": "Orbital speed at height R: v_o = √(GM/(R+R)) = √(GM/2R). Escape speed: v_e = √(2GM/R). Ratio: v_o/v_e = √(1/2) = 1/√2."
+    },
+    {
+      "id": 6,
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "difficulty": "Medium",
+      "question": "Two charges +q and -q are placed at a distance d. What is the electric potential at the midpoint?",
+      "options": [
+        "0",
+        "k q/d",
+        "2 k q/d",
+        "k q/(2d)"
+      ],
+      "answer": "0",
+      "explanation": "Potential due to +q: V_1 = k q/(d/2). Due to -q: V_2 = -k q/(d/2). Total potential: V = V_1 + V_2 = 0."
+    },
+    {
+      "id": 7,
+      "subject": "Physics",
+      "topic": "Current Electricity",
+      "difficulty": "Easy",
+      "question": "A 10 V battery is connected across a 5 Ω resistor. What is the current through the resistor?",
+      "options": [
+        "1 A",
+        "2 A",
+        "0.5 A",
+        "5 A"
+      ],
+      "answer": "2 A",
+      "explanation": "Using Ohm’s law, I = V/R = 10/5 = 2 A."
+    },
+    {
+      "id": 8,
+      "subject": "Physics",
+      "topic": "Magnetics",
+      "difficulty": "Medium",
+      "question": "A current-carrying loop is placed in a uniform magnetic field. The torque on the loop is maximum when the angle between the magnetic moment and field is:",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "answer": "90°",
+      "explanation": "Torque on a current loop is τ = mB sin θ. It is maximum when sin θ = 1, i.e., θ = 90°."
+    },
+    {
+      "id": 9,
+      "subject": "Physics",
+      "topic": "Optics",
+      "difficulty": "Hard",
+      "question": "A convex lens of focal length 20 cm forms a real image at 40 cm from the lens. What is the object distance?",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "30 cm",
+        "40 cm"
+      ],
+      "answer": "40 cm",
+      "explanation": "Using lens formula, 1/f = 1/v - 1/u, with f = 20 cm, v = 40 cm: 1/20 = 1/40 - 1/u. Solving, 1/u = 1/40, so u = -40 cm (object distance is 40 cm)."
+    },
+    {
+      "id": 10,
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "difficulty": "Medium",
+      "question": "The de Broglie wavelength of an electron accelerated through a potential difference of 100 V is approximately:",
+      "options": [
+        "1.23 Å",
+        "12.3 Å",
+        "0.123 Å",
+        "123 Å"
+      ],
+      "answer": "1.23 Å",
+      "explanation": "de Broglie wavelength: λ = 12.27/√V Å. For V = 100 V, λ = 12.27/√100 = 1.23 Å."
+    },
+    {
+      "id": 11,
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "difficulty": "Easy",
+      "question": "An ideal gas undergoes isothermal expansion. The work done by the gas is:",
+      "options": [
+        "Zero",
+        "nRT ln(V_f/V_i)",
+        "nRT",
+        "nRΔT"
+      ],
+      "answer": "nRT ln(V_f/V_i)",
+      "explanation": "For isothermal expansion of an ideal gas, work done W = nRT ln(V_f/V_i)."
+    },
+    {
+      "id": 12,
+      "subject": "Physics",
+      "topic": "SHM",
+      "difficulty": "Medium",
+      "question": "A mass on a spring oscillates with amplitude A. At what position is its kinetic energy equal to potential energy?",
+      "options": [
+        "x = 0",
+        "x = A",
+        "x = A/√2",
+        "x = A/2"
+      ],
+      "answer": "x = A/√2",
+      "explanation": "KE = PE when 1/2 mω² (A² - x²) = 1/2 mω² x². Solving, A² - x² = x², so x² = A²/2, x = ±A/√2."
+    },
+    {
+      "id": 13,
+      "subject": "Physics",
+      "topic": "Waves",
+      "difficulty": "Hard",
+      "question": "Two waves y_1 = A sin(ωt - kx) and y_2 = A sin(ωt - kx + π/2) interfere. The amplitude of the resultant wave is:",
+      "options": [
+        "A",
+        "√2 A",
+        "2 A",
+        "0"
+      ],
+      "answer": "√2 A",
+      "explanation": "Resultant amplitude for waves with phase difference φ is A_r = √(A² + A² + 2A² cos φ). For φ = π/2, A_r = √(2A²) = √2 A."
+    },
+    {
+      "id": 14,
+      "subject": "Physics",
+      "topic": "Fluid Mechanics",
+      "difficulty": "Medium",
+      "question": "Water flows through a horizontal pipe of varying cross-section. If the speed at a section of radius 2 cm is 0.5 m/s, what is the speed at a section of radius 1 cm?",
+      "options": [
+        "0.5 m/s",
+        "1 m/s",
+        "2 m/s",
+        "4 m/s"
+      ],
+      "answer": "2 m/s",
+      "explanation": "By continuity equation, A_1 v_1 = A_2 v_2. Area ratio: (r_1/r_2)² = (2/1)² = 4. Thus, v_2 = v_1 × 4 = 0.5 × 4 = 2 m/s."
+    },
+    {
+      "id": 15,
+      "subject": "Physics",
+      "topic": "Rotational Motion",
+      "difficulty": "Easy",
+      "question": "A disc rotates with constant angular acceleration of 2 rad/s². What is its angular velocity after 4 s, starting from rest?",
+      "options": [
+        "4 rad/s",
+        "6 rad/s",
+        "8 rad/s",
+        "10 rad/s"
+      ],
+      "answer": "8 rad/s",
+      "explanation": "Using ω = ω_0 + αt, with ω_0 = 0, α = 2 rad/s², t = 4 s: ω = 0 + 2 × 4 = 8 rad/s."
+    },
+    {
+      "id": 16,
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "difficulty": "Hard",
+      "question": "A dipole with moment p is placed in a uniform electric field E. The potential energy is minimum when the angle between p and E is:",
+      "options": [
+        "0°",
+        "90°",
+        "180°",
+        "45°"
+      ],
+      "answer": "0°",
+      "explanation": "Potential energy U = -pE cos θ. U is minimum when cos θ = 1, i.e., θ = 0°."
+    },
+    {
+      "id": 17,
+      "subject": "Physics",
+      "topic": "Current Electricity",
+      "difficulty": "Medium",
+      "question": "Three resistors of 2 Ω, 3 Ω, and 6 Ω are connected in parallel. The equivalent resistance is:",
+      "options": [
+        "1 Ω",
+        "2 Ω",
+        "3 Ω",
+        "0.5 Ω"
+      ],
+      "answer": "1 Ω",
+      "explanation": "For parallel resistors, 1/R_eq = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6. Thus, R_eq = 1 Ω."
+    },
+    {
+      "id": 18,
+      "subject": "Physics",
+      "topic": "Magnetics",
+      "difficulty": "Easy",
+      "question": "The magnetic field at the center of a circular loop carrying current I and radius R is:",
+      "options": [
+        "μ_0 I/(2R)",
+        "μ_0 I/R",
+        "μ_0 I/(4R)",
+        "2 μ_0 I/R"
+      ],
+      "answer": "μ_0 I/(2R)",
+      "explanation": "Magnetic field at the center of a circular loop: B = μ_0 I/(2R)."
+    },
+    {
+      "id": 19,
+      "subject": "Physics",
+      "topic": "Optics",
+      "difficulty": "Medium",
+      "question": "A ray of light passes from air (n=1) to glass (n=1.5). The critical angle for total internal reflection is:",
+      "options": [
+        "30°",
+        "41.8°",
+        "60°",
+        "90°"
+      ],
+      "answer": "41.8°",
+      "explanation": "Critical angle: sin θ_c = n_2/n_1 = 1/1.5 = 0.667. Thus, θ_c = sin⁻¹(0.667) ≈ 41.8°."
+    },
+    {
+      "id": 20,
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "difficulty": "Hard",
+      "question": "In a photoelectric experiment, the stopping potential is 2 V for a wavelength of 300 nm. What is the work function if h = 4.14 × 10⁻¹⁵ eV·s, c = 3 × 10⁸ m/s?",
+      "options": [
+        "1 eV",
+        "2 eV",
+        "3 eV",
+        "4 eV"
+      ],
+      "answer": "2 eV",
+      "explanation": "Photon energy: E = hc/λ = (4.14 × 10⁻¹⁵ × 3 × 10⁸)/(300 × 10⁻⁹) = 4.14 eV. Stopping potential V_s = 2 V gives KE_max = 2 eV. Work function: φ = E - KE_max = 4.14 - 2 ≈ 2 eV."
+    },
+    {
+      "id": 21,
+      "subject": "Physics",
+      "topic": "Kinematics",
+      "difficulty": "Medium",
+      "question": "A projectile is launched with speed 20 m/s at 60° to the horizontal. What is its maximum height? (g = 10 m/s²)",
+      "options": [
+        "10 m",
+        "15 m",
+        "20 m",
+        "25 m"
+      ],
+      "answer": "15 m",
+      "explanation": "Maximum height: H = (v sin θ)²/(2g) = (20 sin 60°)²/(2 × 10) = (20 × √3/2)²/20 = 15 m."
+    },
+    {
+      "id": 22,
+      "subject": "Physics",
+      "topic": "Laws of Motion",
+      "difficulty": "Hard",
+      "question": "Two blocks of masses 2 kg and 3 kg are connected by a string passing over a frictionless pulley. What is the acceleration of the system? (g = 10 m/s²)",
+      "options": [
+        "2 m/s²",
+        "4 m/s²",
+        "6 m/s²",
+        "8 m/s²"
+      ],
+      "answer": "2 m/s²",
+      "explanation": "Acceleration: a = (m_2 - m_1)g/(m_1 + m_2) = (3 - 2) × 10/(2 + 3) = 10/5 = 2 m/s²."
+    },
+    {
+      "id": 23,
+      "subject": "Physics",
+      "topic": "Work, Energy, and Power",
+      "difficulty": "Medium",
+      "question": "A 1 kg ball is thrown upward with 20 m/s. What is its kinetic energy at the highest point? (g = 10 m/s²)",
+      "options": [
+        "0 J",
+        "50 J",
+        "100 J",
+        "200 J"
+      ],
+      "answer": "0 J",
+      "explanation": "At the highest point, velocity is zero, so kinetic energy KE = 1/2 mv² = 0 J."
+    },
+    {
+      "id": 24,
+      "subject": "Physics",
+      "topic": "Circular Motion",
+      "difficulty": "Easy",
+      "question": "A car moves around a circular track of radius 50 m at 20 m/s. What is its centripetal acceleration?",
+      "options": [
+        "4 m/s²",
+        "8 m/s²",
+        "10 m/s²",
+        "12 m/s²"
+      ],
+      "answer": "8 m/s²",
+      "explanation": "Centripetal acceleration: a_c = v²/r = 20²/50 = 400/50 = 8 m/s²."
+    },
+    {
+      "id": 25,
+      "subject": "Physics",
+      "topic": "Gravitation",
+      "difficulty": "Medium",
+      "question": "The gravitational potential at the surface of a planet of mass M and radius R is:",
+      "options": [
+        "-GM/R",
+        "GM/R",
+        "-GM/R²",
+        "GM/R²"
+      ],
+      "answer": "-GM/R",
+      "explanation": "Gravitational potential: V = -GM/R."
+    },
+    {
+      "id": 26,
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "difficulty": "Easy",
+      "question": "The electric field due to a point charge q at distance r is proportional to:",
+      "options": [
+        "q/r",
+        "q/r²",
+        "q²/r",
+        "q²/r²"
+      ],
+      "answer": "q/r²",
+      "explanation": "Electric field: E = k q/r², so E ∝ q/r²."
+    },
+    {
+      "id": 27,
+      "subject": "Physics",
+      "topic": "Current Electricity",
+      "difficulty": "Hard",
+      "question": "In a Wheatstone bridge, the resistances are P = 2 Ω, Q = 3 Ω, R = 4 Ω, S = x Ω. For balance, x is:",
+      "options": [
+        "6 Ω",
+        "8 Ω",
+        "10 Ω",
+        "12 Ω"
+      ],
+      "answer": "6 Ω",
+      "explanation": "For balance, P/Q = R/S. Thus, 2/3 = 4/x, so x = 4 × 3/2 = 6 Ω."
+    },
+    {
+      "id": 28,
+      "subject": "Physics",
+      "topic": "Magnetics",
+      "difficulty": "Medium",
+      "question": "A proton moves perpendicular to a magnetic field with speed 10⁶ m/s. If the radius of its path is 0.01 m, what is B? (q = 1.6 × 10⁻¹⁹ C, m = 1.67 × 10⁻²⁷ kg)",
+      "options": [
+        "0.1 T",
+        "0.2 T",
+        "0.3 T",
+        "0.4 T"
+      ],
+      "answer": "0.1 T",
+      "explanation": "Radius: r = mv/(qB). Solving for B, B = mv/(qr) = (1.67 × 10⁻²⁷ × 10⁶)/(1.6 × 10⁻¹⁹ × 0.01) = 0.1 T."
+    },
+    {
+      "id": 29,
+      "subject": "Physics",
+      "topic": "Optics",
+      "difficulty": "Easy",
+      "question": "The focal length of a concave mirror is 20 cm. An object is placed 30 cm from it. The image distance is:",
+      "options": [
+        "60 cm",
+        "40 cm",
+        "20 cm",
+        "-60 cm"
+      ],
+      "answer": "60 cm",
+      "explanation": "Using mirror formula, 1/f = 1/u + 1/v, with f = -20 cm, u = -30 cm: 1/v = 1/(-20) - 1/(-30) = -1/60. Thus, v = 60 cm."
+    },
+    {
+      "id": 30,
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "difficulty": "Medium",
+      "question": "The half-life of a radioactive sample is 2 days. What fraction of the sample remains after 4 days?",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/16"
+      ],
+      "answer": "1/4",
+      "explanation": "Fraction remaining: (1/2)^(t/T) = (1/2)^(4/2) = (1/2)² = 1/4."
+    },
+    {
+      "id": 31,
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "difficulty": "Hard",
+      "question": "An ideal gas undergoes an adiabatic process. The relation between pressure and volume is:",
+      "options": [
+        "PV = constant",
+        "PV^γ = constant",
+        "P/T = constant",
+        "V/T = constant"
+      ],
+      "answer": "PV^γ = constant",
+      "explanation": "For an adiabatic process, PV^γ = constant, where γ is the ratio of specific heats."
+    },
+    {
+      "id": 32,
+      "subject": "Physics",
+      "topic": "SHM",
+      "difficulty": "Easy",
+      "question": "The time period of a simple pendulum of length 1 m is: (g = 10 m/s²)",
+      "options": [
+        "1 s",
+        "2 s",
+        "3 s",
+        "4 s"
+      ],
+      "answer": "2 s",
+      "explanation": "Time period: T = 2π √(L/g) = 2π √(1/10) ≈ 2 s."
+    },
+    {
+      "id": 33,
+      "subject": "Physics",
+      "topic": "Waves",
+      "difficulty": "Medium",
+      "question": "A string fixed at both ends has a fundamental frequency of 100 Hz. The frequency of the second harmonic is:",
+      "options": [
+        "100 Hz",
+        "200 Hz",
+        "300 Hz",
+        "400 Hz"
+      ],
+      "answer": "200 Hz",
+      "explanation": "Second harmonic frequency: f_2 = 2f_1 = 2 × 100 = 200 Hz."
+    },
+    {
+      "id": 34,
+      "subject": "Physics",
+      "topic": "Fluid Mechanics",
+      "difficulty": "Easy",
+      "question": "The pressure at a depth h in a liquid of density ρ is:",
+      "options": [
+        "ρgh",
+        "ρg/h",
+        "h/(ρg)",
+        "ρ/(gh)"
+      ],
+      "answer": "ρgh",
+      "explanation": "Pressure in a fluid: P = ρgh."
+    },
+    {
+      "id": 35,
+      "subject": "Physics",
+      "topic": "Rotational Motion",
+      "difficulty": "Medium",
+      "question": "A wheel of radius 0.5 m rolls without slipping. If its center moves at 2 m/s, what is the speed of the topmost point?",
+      "options": [
+        "1 m/s",
+        "2 m/s",
+        "3 m/s",
+        "4 m/s"
+      ],
+      "answer": "4 m/s",
+      "explanation": "For pure rolling, speed of topmost point = 2v_cm = 2 × 2 = 4 m/s."
+    },
+    {
+      "id": 36,
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "difficulty": "Medium",
+      "question": "The capacitance of a parallel plate capacitor increases if:",
+      "options": [
+        "Plate area decreases",
+        "Distance between plates increases",
+        "Dielectric constant increases",
+        "Plate area remains same"
+      ],
+      "answer": "Dielectric constant increases",
+      "explanation": "Capacitance: C = ε_0 k A/d. C increases if dielectric constant k increases."
+    },
+    {
+      "id": 37,
+      "subject": "Physics",
+      "topic": "Current Electricity",
+      "difficulty": "Easy",
+      "question": "The power dissipated in a 4 Ω resistor with 2 A current is:",
+      "options": [
+        "4 W",
+        "8 W",
+        "16 W",
+        "32 W"
+      ],
+      "answer": "16 W",
+      "explanation": "Power: P = I²R = 2² × 4 = 16 W."
+    },
+    {
+      "id": 38,
+      "subject": "Physics",
+      "topic": "Magnetics",
+      "difficulty": "Hard",
+      "question": "The mutual inductance between two coils is 0.1 H. If the current in one coil changes at 2 A/s, the induced EMF in the other coil is:",
+      "options": [
+        "0.1 V",
+        "0.2 V",
+        "0.3 V",
+        "0.4 V"
+      ],
+      "answer": "0.2 V",
+      "explanation": "Induced EMF: ε = M (dI/dt) = 0.1 × 2 = 0.2 V."
+    },
+    {
+      "id": 39,
+      "subject": "Physics",
+      "topic": "Optics",
+      "difficulty": "Medium",
+      "question": "In Young’s double-slit experiment, the fringe width is 0.2 mm when slits are 1 mm apart and screen is 1 m away. The wavelength of light is:",
+      "options": [
+        "400 nm",
+        "500 nm",
+        "600 nm",
+        "700 nm"
+      ],
+      "answer": "600 nm",
+      "explanation": "Fringe width: β = λD/d. Thus, λ = βd/D = (0.2 × 10⁻³ × 1 × 10⁻³)/1 = 2 × 10⁻⁷ m = 600 nm."
+    },
+    {
+      "id": 40,
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "difficulty": "Easy",
+      "question": "The energy of a photon with wavelength 400 nm is: (h = 4.14 × 10⁻¹⁵ eV·s, c = 3 × 10⁸ m/s)",
+      "options": [
+        "1.55 eV",
+        "3.1 eV",
+        "4.65 eV",
+        "6.2 eV"
+      ],
+      "answer": "3.1 eV",
+      "explanation": "E = hc/λ = (4.14 × 10⁻¹⁵ × 3 × 10⁸)/(400 × 10⁻⁹) = 3.1 eV."
+    },
+    {
+      "id": 41,
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "difficulty": "Medium",
+      "question": "The efficiency of a Carnot engine operating between 400 K and 300 K is:",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "answer": "25%",
+      "explanation": "Efficiency: η = 1 - T_c/T_h = 1 - 300/400 = 0.25 or 25%."
+    },
+    {
+      "id": 42,
+      "subject": "Physics",
+      "topic": "SHM",
+      "difficulty": "Hard",
+      "question": "Two springs with constants k and 2k are connected in series and support a mass m. The equivalent spring constant is:",
+      "options": [
+        "k/2",
+        "2k/3",
+        "3k/2",
+        "2k"
+      ],
+      "answer": "2k/3",
+      "explanation": "For springs in series, 1/k_eq = 1/k + 1/(2k) = 3/(2k). Thus, k_eq = 2k/3."
+    },
+    {
+      "id": 43,
+      "subject": "Physics",
+      "topic": "Waves",
+      "difficulty": "Easy",
+      "question": "The speed of sound in air at 0°C is 330 m/s. At 27°C, it is approximately:",
+      "options": [
+        "330 m/s",
+        "340 m/s",
+        "350 m/s",
+        "360 m/s"
+      ],
+      "answer": "350 m/s",
+      "explanation": "Speed of sound: v ∝ √T. v_2/v_1 = √(300/273). v_2 = 330 × √(300/273) ≈ 350 m/s."
+    },
+    {
+      "id": 44,
+      "subject": "Physics",
+      "topic": "Fluid Mechanics",
+      "difficulty": "Hard",
+      "question": "A venturi meter has a pipe of area 4 cm² and throat of 1 cm². If the pressure difference is 1000 Pa, what is the flow speed in the throat? (ρ = 1000 kg/m³)",
+      "options": [
+        "1 m/s",
+        "2 m/s",
+        "3 m/s",
+        "4 m/s"
+      ],
+      "answer": "2 m/s",
+      "explanation": "Using Bernoulli’s and continuity, ΔP = (1/2)ρ (v_2² - v_1²), and A_1 v_1 = A_2 v_2. Solving, v_2 ≈ 2 m/s."
+    },
+    {
+      "id": 45,
+      "subject": "Physics",
+      "topic": "Rotational Motion",
+      "difficulty": "Easy",
+      "question": "The moment of inertia of a solid sphere about its diameter is: (M = mass, R = radius)",
+      "options": [
+        "2/5 MR²",
+        "2/3 MR²",
+        "MR²",
+        "1/2 MR²"
+      ],
+      "answer": "2/5 MR²",
+      "explanation": "Moment of inertia of a solid sphere about diameter: I = 2/5 MR²."
+    },
+    {
+      "id": 46,
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "difficulty": "Medium",
+      "question": "The electric field inside a uniformly charged spherical shell is:",
+      "options": [
+        "Zero",
+        "kQ/r²",
+        "kQ/r",
+        "Q/(4πε_0 r)"
+      ],
+      "answer": "Zero",
+      "explanation": "By Gauss’s law, the electric field inside a uniformly charged spherical shell is zero."
+    },
+    {
+      "id": 47,
+      "subject": "Physics",
+      "topic": "Current Electricity",
+      "difficulty": "Medium",
+      "question": "A battery of EMF 12 V and internal resistance 2 Ω is connected to a 4 Ω resistor. The terminal voltage is:",
+      "options": [
+        "8 V",
+        "10 V",
+        "12 V",
+        "14 V"
+      ],
+      "answer": "10 V",
+      "explanation": "Current: I = E/(R + r) = 12/(4 + 2) = 2 A. Terminal voltage: V = E - Ir = 12 - 2 × 2 = 10 V."
+    },
+    {
+      "id": 48,
+      "subject": "Physics",
+      "topic": "Magnetics",
+      "difficulty": "Easy",
+      "question": "The force on a current-carrying conductor in a magnetic field is maximum when the angle between them is:",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "answer": "90°",
+      "explanation": "Force: F = I L B sin θ. Maximum when sin θ = 1, i.e., θ = 90°."
+    },
+    {
+      "id": 49,
+      "subject": "Physics",
+      "topic": "Optics",
+      "difficulty": "Hard",
+      "question": "A plano-convex lens has a focal length of 20 cm and refractive index 1.5. The radius of curvature of the curved surface is:",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "30 cm",
+        "40 cm"
+      ],
+      "answer": "20 cm",
+      "explanation": "Lens maker’s formula: 1/f = (μ - 1)(1/R_1 - 1/R_2). For plano-convex, R_2 = ∞, so 1/20 = (1.5 - 1)(1/R_1). Solving, R_1 = 20 cm."
+    },
+    {
+      "id": 50,
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "difficulty": "Medium",
+      "question": "The binding energy per nucleon of a nucleus is 8 MeV. For a nucleus with mass number 64, the total binding energy is:",
+      "options": [
+        "256 MeV",
+        "512 MeV",
+        "768 MeV",
+        "1024 MeV"
+      ],
+      "answer": "512 MeV",
+      "explanation": "Total binding energy = binding energy per nucleon × mass number = 8 × 64 = 512 MeV."
+    }
+  ]

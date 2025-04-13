@@ -1,0 +1,153 @@
+
+  .hero-section {
+    display: flex;
+    background-color: #D4D4D4;
+    justify-content: space-between;
+    align-items: center;
+    height: 45em;
+  }
+  .hero-left{
+    min-width: 50%;
+  }
+  .hero-left h1{
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 1;
+    padding-left: 0.6em;
+  }
+  .hero-left p{
+    font-size: 18px;
+    line-height: 0.1;
+    font-weight: 300;
+    padding-left: 2em;
+  }
+  .hero-btn{
+    margin: 3em 2em;
+    display: flex;
+    gap: 20px;
+  }
+  .hero-btn .mock-test{
+    background-color: #fff;
+  }
+  .hero-left button{
+    padding: 1em 4em;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .hero-right{
+    width: 50%;
+    padding-right: 3em;
+    margin-top: 3em;
+  }
+  .hero-right img{
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+  }
+  .hero-section h2 {
+    font-size: 2rem;
+
+  }
+  
+  .hero-section p {
+    margin: 0.5rem 0 1rem;
+  }
+  .ace-sec{
+    padding: 2em;
+  }
+  .ace-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2.5em;
+  }
+  
+  .ace-card {
+    background-color: #fcfcfc;
+    border: 1px solid #DDD0C8;
+    border-radius: 10px;
+    padding: 1.2em;
+    width: 15%;
+    height: 250px;
+    font-size: large;
+    line-height: 1.5em;
+  }
+  .ace-sec h2{
+    text-align: center;
+    margin-bottom: 64px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 2em;
+  }
+  .path-sec{
+    background-color: #D4D4D4;
+    padding: 2em;
+  }
+  .path-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2.5em;
+    text-align: center;
+  }
+  
+  .path-card {
+    border-radius: 10px;
+  }
+  .path-card img{
+    height: 3em;
+    width: 3em;
+    
+  }
+  .path-sec h2{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 64px;
+    margin-top: 1em;
+    font-weight: 700;
+  }
+  .feedback-sec{
+    margin: 3em;
+    text-align: center;
+
+  }
+  .feedback-sec img{
+    padding: 2.5em;
+    height: 12em;
+    width: 12em;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+  }
+  .feedback-sec .p1{
+    font-size: large;
+    line-height: 1.2;
+  }
+  .feedback-sec .p2{
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+  .join-sec{
+    text-align: center;
+    background-color: #D4D4D4;
+    padding: 4em;
+  }
+  .join-sec button{
+    height: 4em;
+    width: 20em;
+    border-radius: 2em;
+    font-size: 1.15em;
+    margin: 1.5em;
+  }
+  
+  .mock-test{
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.6em 1.4em;
+  } 

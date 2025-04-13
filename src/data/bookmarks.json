@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "question": "What is the unit of acceleration?",
+      "options": ["m/s", "m", "m/s²", "kg"],
+      "answer": "m/s²",
+      "subject": "Physics",
+      "note": "Need to revise this concept again."
+    },
+    {
+      "id": 2,
+      "question": "What is the derivative of sin(x)?",
+      "options": ["cos(x)", "-cos(x)", "-sin(x)", "tan(x)"],
+      "answer": "cos(x)",
+      "subject": "Maths",
+      "note": ""
+    }
+  ]
+  
