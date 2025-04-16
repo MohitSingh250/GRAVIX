@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/profile.css";
+import Navbar from "../components/Navbar";
 
 const Profile = () => {
   const [user, setUser] = useState({
@@ -22,6 +23,8 @@ const Profile = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="profile container">
       <h2>👤 Your Profile</h2>
 
@@ -40,6 +43,7 @@ const Profile = () => {
         </button>
       </div>
     </div>
+    </>
   );
 };
 

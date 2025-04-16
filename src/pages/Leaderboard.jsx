@@ -1,9 +1,12 @@
 import React from "react";
 import leaderboard from "../data/leaderboard.json";
 import "../styles/leaderboard.css";
+import Navbar from "../components/Navbar";
 
 const Leaderboard = () => {
   return (
+    <>
+    <Navbar/>
     <div className="leaderboard container">
       <h2>🏆 Leaderboard</h2>
       <p className="subtext">Top performers this week</p>
@@ -24,6 +27,7 @@ const Leaderboard = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

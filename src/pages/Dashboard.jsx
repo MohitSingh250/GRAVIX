@@ -10,6 +10,7 @@ import {
   LinearScale,
   BarElement,
 } from "chart.js";
+import Navbar from "../components/Navbar";
 
 ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement);
 
@@ -41,6 +42,8 @@ const Dashboard = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="dashboard container">
       <h2>Your Performance</h2>
 
@@ -70,6 +73,7 @@ const Dashboard = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

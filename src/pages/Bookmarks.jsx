@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "../data/bookmarks.json";
 import "../styles/bookmarks.css";
+import Navbar from "../components/Navbar";
 
 const Bookmarks = () => {
   const [bookmarks, setBookmarks] = useState(data);
@@ -13,6 +14,8 @@ const Bookmarks = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="bookmarks container">
       <h2>📌 Bookmarked Questions</h2>
 
@@ -45,6 +48,7 @@ const Bookmarks = () => {
         ))
       )}
     </div>
+    </>
   );
 };
 

@@ -1,7 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Chapter from "./pages/Chapter";
 import MockTest from "./pages/MockTest";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
@@ -17,7 +16,6 @@ const App = () => {
       
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/chapter/:id" element={<Chapter />} />
         <Route path="/mock-test" element={<MockTest />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/leaderboard" element={<Leaderboard />} />

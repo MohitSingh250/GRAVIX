@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import questionsData from "../data/questions.json";
 import "../styles/mocktest.css";
+import Navbar from "../components/Navbar";
 
 const shuffle = (arr) => [...arr].sort(() => Math.random() - 0.5);
 
@@ -54,6 +55,7 @@ const MockTest = () => {
 
   return (
     <>
+      <Navbar/>
       <header className="header">
         <h1>
           Physics Mock Test <span>Paper 1</span>
