@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import questionsData from "../data/questions.json";
 import "../styles/mocktest.css";
 import Navbar from "../components/Navbar";
+import Timer from "../components/Timer";
 
 const shuffle = (arr) => [...arr].sort(() => Math.random() - 0.5);
 
@@ -9,26 +10,8 @@ const MockTest = () => {
   const [questions] = useState(shuffle(questionsData).slice(0, 30));
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState({});
-  const [reviews, setReviews] = useState({}); 
-  const [timer, setTimer] = useState(60 * 60);
+  const [reviews, setReviews] = useState({});
   const [submitted, setSubmitted] = useState(false);
-
-  useEffect(() => {
-    const countdown = setInterval(() => {
-      setTimer((oldTime) => {
-        if (oldTime <= 1) {
-          clearInterval(countdown);
-          setSubmitted(true);
-          return 0;
-        }
-        return oldTime - 1;
-      });
-    }, 1000);
-    return () => clearInterval(countdown);
-  }, []);
-
-  const formatTime = (t) =>
-    `${Math.floor(t / 60).toString().padStart(2, "0")}:${(t % 60).toString().padStart(2, "0")}`;
 
   const handleAnswer = (opt) => {
     setAnswers({ ...answers, [current]: opt });
@@ -54,14 +37,14 @@ const MockTest = () => {
   const correctCount = questions.filter((q, i) => answers[i] === q.answer).length;
 
   return (
-    <>
-      <Navbar/>
+    <div className="mock-test-page">
       <header className="header">
         <h1>
           Physics Mock Test <span>Paper 1</span>
         </h1>
-        <div className="timer">{formatTime(timer)}</div>
+        {!submitted && <Timer duration={60 * 60} onTimeUp={submitTest} />}
       </header>
+
       <div className="mock-test-container">
         {!submitted ? (
           <div className="main-content">
@@ -78,14 +61,14 @@ const MockTest = () => {
               </p>
               <div className="options">
                 {questions[current].options.map((opt, idx) => (
-                  <label key={idx}>
+                  <label key={idx} className="option-label">
                     <input
                       type="radio"
                       name="answer"
                       onChange={() => handleAnswer(opt)}
                       checked={answers[current] === opt}
                     />
-                    {String.fromCharCode(65 + idx)}) {opt}
+                    <span>{String.fromCharCode(65 + idx)}) {opt}</span>
                   </label>
                 ))}
               </div>
@@ -96,6 +79,7 @@ const MockTest = () => {
                 <button className="next" onClick={handleNext}>Next →</button>
               </div>
             </div>
+
             <div className="navigator-section">
               <h3>Question Navigator</h3>
               <div className="navigator-grid">
@@ -115,7 +99,6 @@ const MockTest = () => {
                 <span>✔ Answered ({Object.keys(answers).length})</span>
                 <span>⚠ Marked for Review ({Object.keys(reviews).filter((k) => reviews[k]).length})</span>
                 <span>✖ Not Answered ({30 - Object.keys(answers).length})</span>
-                <span>⨯ Not Visited ({30 - current - (answers[current] ? 1 : 0)})</span>
               </div>
               <button className="submit" onClick={submitTest}>Submit Test</button>
             </div>
@@ -129,7 +112,7 @@ const MockTest = () => {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

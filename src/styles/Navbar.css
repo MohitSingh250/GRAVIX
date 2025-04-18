@@ -1,30 +1,87 @@
 .navbar {
+  background-color: #0D1117;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+  height: 3.5em;
+  position: relative;
+}
+
+.navbar-logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Middle Links */
+.nav-middle {
+  flex: 1;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #fff;
+}
+
+.navbar-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Right Button */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Hamburger menu */
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* ----------- Responsive Section ----------- */
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-middle {
+    position: absolute;
+    top: 3.5em;
+    left: 0;
+    right: 0;
     background-color: #0D1117;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
+    display: none;
+    flex-direction: column;
     align-items: center;
-    padding-left: 2.8em;
-    padding-right: 4em;
-    height: 3.5em;
+    padding: 1em 0;
+    z-index: 999;
   }
-  
-  .navbar-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
-  }
-  .navbar-links {
-    list-style: none;
+
+  .nav-middle.open {
     display: flex;
-    gap: 1.5rem;
   }
-  .navbar-links li a {
-    text-decoration: none;
-    font-weight: 300;
-    color: #fff;
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 1em;
   }
-  .navbar-links li a:hover {
-    text-decoration: underline;
+
+  .navbar-right {
+    display: none;
   }
-  
+}

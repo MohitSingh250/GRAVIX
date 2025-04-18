@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 
 const Home = () => (
     <>
+    
     <Navbar/>
     <section className="hero-section">
         <div className="hero-left">
